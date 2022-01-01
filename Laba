@@ -25,5 +25,5 @@ int main()
 
         cout << " \nМинимальное число: " << min << endl;
 	rcout <<"КОНЕЦ";f
-    }
+    }sv
 }
