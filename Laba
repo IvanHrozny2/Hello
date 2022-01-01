@@ -16,7 +16,7 @@ int main()
         if (b < min) {
             min = b;
         }
-        if (c < min) {
+        if (c < min) 
             min = c;
         }
         if (a < min) {
@@ -24,5 +24,6 @@ int main()
         }
 
         cout << " \nМинимальное число: " << min << endl;
+	cout <<"КОНЕЦ";
     }
 }
