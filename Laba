@@ -6,10 +6,11 @@ int main()
 	setlocale(LC_ALL, "russian");{
         int a, b, c;
 
-        cout << "Введите 3 числа,\n";
+        cout << "Введите 4 числа,\n";
         cin >> a;
         cin >> b;
         cin >> c;
+	cin >> d;
 
         int min = a;
 
