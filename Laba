@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	setlocale(LC_ALL, "russian");{
+        int a, b, c;
+
+        cout << "Введите 3 числа,\n";
+        cin >> a;
+        cin >> b;
+        cin >> c;
+
+        int min = a;
+
+        if (b < min) {
+            min = b;
+        }
+        if (c < min) {
+            min = c;
+        }
+        if (a < min) {
+            min = a;
+        }
+
+        cout << " \nМинимальное число: " << min << endl;
+    }
+}
